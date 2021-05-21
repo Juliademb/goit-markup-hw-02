@@ -1,0 +1,71 @@
+:root {
+  --primary-text-color: #212121;
+  --accent-color: #2196f3;
+  --grey-color: #757575;
+  --white-color: #ffffff;
+  --background-color: #2f303a;
+  --background-body: #eeeeee;
+}
+
+body {
+  background-color: var(--background-body);
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/* Шапка профиля */
+.logo {
+  color: var(--primary-text-color);
+}
+.accent-logo {
+  color: var(--accent-color);
+}
+
+.site-nav a {
+  color: var(--primary-text-color);
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--accent-color);
+}
+
+.contacts a {
+  color: var(--grey-color);
+}
+
+.contacts a:hover,
+.contacts a:focus {
+  color: var(--accent-color);
+}
+
+/* Секция фильтров */
+.button {
+  color: var(--primary-text-color);
+  background-color: #f5f4fa;
+}
+.button:hover,
+.button:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+/* Секция карточек */
+.cards p {
+  color: var(--grey-color);
+}
+
+/*Footer*/
+.footer {
+  color: var(--white-color);
+  background-color: var(--background-color);
+}
+.footer a {
+  color: var(--white-color);
+}
+.address a {
+  color: var(--white-color);
+}
